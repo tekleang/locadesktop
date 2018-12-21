@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+/*responsive with screet devices*/
+
+/*laptop HD*/
+
+@media (min-width:1301px) and (max-width:1500px) {
+	h2{font-size: 32px;}
+	#content .sub-banner .text{margin-top: 20%;}
+	#content .sub-banner .text h1{padding: 0 35% !important;}
+
+	#content .luxury .group-title h2{padding: 0 20%;}
+	#content .luxury .items .text p{padding:0 25%;}
+	#content .luxury .items .img{height: 550px !important;}
+
+	#content .lead .items .img{height: 550px !important;}
+
+	#content .corner .items .click-slide .sub-partner{height: 550px !important;}
+	#content .location .items .img{height: 550px !important;}
+
+	#content .oneroom .items .text p{padding: 0 25% !important;}
+	#content .oneroom .items .click-slide .sub-partner{height: 550px !important;}
+	#content .tworoom .items .text p{padding: 0 25% !important;}
+	#content .tworoom .items .click-slide .sub-partner{height: 550px !important;}
+	#content .dubbleroom .items .text p{padding: 0 25% !important;}
+	#content .dubbleroom .items .click-slide .sub-partner{height: 550px !important;}
+
+	#content .amenities .items .click-slide .sub-partner{height: 550px !important;}
+	#content .recreational .items .img{height: 550px !important;}
+
+	#content .developer .items .text p{padding-left: 28% !important;padding-right: 28% !important;}
+	#content .developer .items .click-slide .sub-partner{height: 550px !important;}
+
+}
+
+
+@media (min-width:1024px) and (max-width:1300px) {
+	h2{font-size: 26px !important;}
+	#content .sub-banner .text{margin-top: 30%;}
+	#content .sub-banner .text h1{padding: 0 30% !important;}
+
+	#content .luxury .group-title h2{padding: 0 21% !important;}
+	#content .luxury .items .text p{padding: 0 20% !important;}
+	#content .luxury .items .img{height: 430px !important;}
+
+	#content .lead .items .img{height: 430px !important;}
+
+	#content .corner .items .text p{padding: 0 25% !important;}
+	#content .corner .items .click-slide .sub-partner{height: 430px !important;}
+	#content .location .items .text p{padding: 0 25% !important;}
+	#content .location .items .img{height: 430px !important;}
+
+	#content .oneroom .items .text p{padding: 0 15% !important;}
+	#content .oneroom .items .click-slide .sub-partner{height: 430px !important;}
+	#content .tworoom .items .text p{padding: 0 15% !important;}
+	#content .tworoom .items .click-slide .sub-partner{height: 430px !important;}
+	#content .dubbleroom .items .text p{padding: 0 15% !important;}
+	#content .dubbleroom .items .click-slide .sub-partner{height: 430px !important;}
+
+	#content .amenities .items .click-slide .sub-partner{height: 430px !important;}
+	#content .recreational .items .img{height: 430px !important;}
+
+	#content .developer .items .text p{padding-left: 20% !important;padding-right: 20% !important;}
+	#content .developer .items .click-slide .sub-partner{height: 430px !important;}
+
+	#content .update .items .text h3{padding-left: 14% !important;padding-right: 14% !important;}
+	#content .update .items .img{height: 265px !important;}
+
+	#content .targert .box-form .form-inline .box-input input{width: 285px !important;}
+	#content .targert .box-form .form-inline textarea{width: 604px !important;}
+}
+ 
+@media (min-width:1024px) and (max-width:1299px){
+	/*h2{font-size: 26px;}*/
+}
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width:768px) and (max-width:1023px)  {
+	*{overflow-x: hidden;}
+	.pagination,.pagination .page,.pagination ul,
+	.pagination ul li{overflow-x: visible;}
+	h1{font-size: 28px;}
+	h2{font-size: 20px !important;}
+	#content .luxury .pad h2{padding: 0 21%;}
+	#content .luxury .pad .items .text p{padding: 0 10%;}
+	#content .luxury .items .img{height: 350px !important;}
+
+	#content .lead .items .img{height: 350px !important;}
+
+	#content .sub-banner .banner-img{height: 450px !important;}
+	#content .sub-banner .img{left: 14%;}
+	#content .sub-banner .text{margin-top: 35%;}
+	#content .sub-banner .text h1{padding: 0 28% !important;}
+
+	#content .corner .items .text p{padding: 0 12% !important;}
+	#content .corner .items .click-slide .sub-partner{height: 350px !important;}
+	#content .location .items .text p{padding: 0 12% !important;}
+	#content .location .items .img{height: 350px !important;}
+
+	#header .sub-nav-bottom{margin-top: -41px !important;}
+
+
+	#content .oneroom .items .text p{padding: 0 8% !important;}
+	#content .oneroom .items .click-slide .sub-partner{height: 350px !important;}
+	#content .tworoom .items .text p{padding: 0 8% !important;}
+	#content .tworoom .items .click-slide .sub-partner{height: 350px !important;}
+	#content .dubbleroom .items .text p{padding: 0 8% !important;}
+	#content .dubbleroom .items .click-slide .sub-partner{height: 350px !important;}
+
+	#content .amenities .items .text p{padding: 0 11% !important;}
+	#content .amenities .items .click-slide .sub-partner{height: 350px !important;}
+	#content .recreational .items .text p{padding: 0 11% !important;}
+	#content .recreational .items .img{height: 350px !important;}
+
+	#content .developer .items .text p{padding-left: 6% !important;padding-right: 6% !important;}
+	#content .developer .items .click-slide .sub-partner{height: 350px !important;}
+
+	#content .update .items .img{height: 240px !important;}
+	#content .update .items .text h3{padding-left: 5% !important;padding-right: 5% !important;}
+
+	#content .gallery .items .img img{height: 130px !important;}
+
+	#content .team .items .img{height: 180px !important;}
+
+	#content .targert ul li span:last-child{width: 80% !important;line-height: normal !important;}
+	#content .targert .col-sm-8 input{width: 215px !important;}
+	#content .targert .col-sm-8 textarea{width: 458px !important;}
+
+	#content .question{width: 92% !important;}
+	.sSign-show{right: 35px !important;}
+
+
+	#footer .box-sub-partner .sub-partner{height: 60px !important;}
+	#footer .map{height: 360px !important;}
+}
+
+
+
+
+
+

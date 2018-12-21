@@ -1,0 +1,229 @@
+body{
+	font-size: 14px !important;
+	font-family: Arial !important;
+	background-color: #FFFFFF !important;
+	overflow-x: hidden;
+	color: #333;
+}
+#wrapper{margin: 0 auto;padding: 0;}
+.container-fluid{margin: 0 auto;padding: 0;}
+.container{padding: 0;}
+.button button{
+	width: 200px;
+	height: 40px;
+	font-size: 14px;
+	color: #fff;
+	border: 1px solid #B69E58;
+	background: #B69E58;
+}
+.button button:hover{color: #FFFFFF;background-color: #B69E58;transition: 0.7s;}
+.gradientb{
+    background-color: rgba(40,41,35,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: 0;
+}
+.gradientbb{
+    background-color: rgba(40,41,35,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: 0;
+}
+
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Header home page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+
+/*ipad hamburger menu*/
+/*hamberger menu*/
+/*menu top*/
+
+#header .main-box-nav{position: absolute;left: 0;top: 0;width: 100%;z-index: 100;}
+#header .nav-top{width: 100%;padding-top: 10px;float: left;}
+/*end menu top*/
+/*main menu*/
+#header .container-fluid-menu{top: 0;width: 100%;padding: 5px 0;}
+#header .sub-nav-bottom{float: right;}
+  /*logo*/
+#header .nav-bottom .box-logo{float: left;}
+#header .nav-bottom .logo{height: 50px;left: 0;display:block;}
+#header .nav-bottom .logo img{height: 100%;}
+  /*end logo*/
+  /*menu*/
+#header .nav-bottom .sub-nav-bottom .menu{float: left;padding: 0;margin: 0;list-style: none;margin-top: -5px;}
+#header .nav-bottom .sub-nav-bottom .menu li{float: left;}
+#header .nav-bottom .sub-nav-bottom .menu li a{display: block;padding: 17px 30px;font-size: 14px;color: white;text-decoration: none;transition: 0.3s;text-transform: uppercase;opacity: 0.5;}
+#header .nav-bottom .sub-nav-bottom .menu li a:hover{color: #fff;opacity: 1;}
+#header .nav-bottom .sub-nav-bottom .menu li.fix a{background-color: #B69E58;opacity: 1;}
+#header nav a.active{color: #EC1F27 !important;}
+#header .nav-bottom .logo,
+#header .nav-bottom .menu li,
+#header .nav-bottom .menu li a,
+#header .nav-bottom .menu,
+#header .container-fluid-menu{transition: .4s all;-moz-transition: .4s all;-webkit-transition: .4s all;-o-transition: .4s all;}
+/*shrink*/
+.shrink-container-fluid-menu{position: fixed;background-color: rgba(0,0,0,0.7);height: 54px;}
+.shrink-logo{height: 45px !important;}
+.shrink-menu{}
+
+/*hamburger*/
+#header .hamburger{float: left;display: block;padding-top: 7px;margin-right: 40px;cursor: pointer;}
+.bar1, .bar2, .bar3 {width: 30px;height: 2px;background-color: #fff;margin: 6px 0;transition: 0.4s;}
+.change-hamburger-menu .bar1 {-webkit-transform: rotate(-45deg) translate(-6px, 6px);transform: rotate(-45deg) translate(-5px, 5px);}
+.change-hamburger-menu .bar2 {opacity: 0;}
+.change-hamburger-menu .bar3 {-webkit-transform: rotate(45deg) translate(-6px, -6px);transform: rotate(45deg) translate(-6px, -6px);}
+#header .slidbar .container #hamburger-menu{margin-top: 8px;position: absolute;}
+
+/*menu slidbar*/
+#header .slidbar{position: fixed;width: 100%;height: 100%;background-color: rgba(156,137,86,0.9);left: 0;top: 0;display: none;}
+#header .slidbar .container{height: 100%;width: 87.5%;}
+#header .slidbar .container .box{display: flex;justify-content: center;height: 100%;}
+#header .slidbar .menu{display: flex;justify-content: center;flex-direction: column;}
+#header .slidbar .menu li{display: block;float: left;width: 100%;padding: 15px 0;text-align: center;text-transform: uppercase;}
+#header .slidbar .menu li a{text-decoration: none;color: #fff;}
+#header .slidbar .menu li a:hover{color: #fff;}
+
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog Content Home Page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+/*banner-home*/
+.carousel-indicators .active{background-color: #B69E58;border: 1px solid #B69E58;}
+.carousel-indicators li{background-color: #fff;border: 1px solid #B69E58;}
+#content a .glyphicon-chevron-left{display: none;}
+#content a:hover .glyphicon-chevron-left{display: block !important;}
+#content a .glyphicon-chevron-right{display: none;}
+#content a:hover .glyphicon-chevron-right{display: block !important;}
+#content .carousel-indicators li{width: 8px;height: 8px;}
+#content .carousel-indicators .active{width: 9px;height: 9px;}
+#content .banner-img{height: 100%;overflow: hidden;}
+#content .banner-img img{width: 100%;height: 100vh;object-fit: cover;}
+#content .carousel-caption{bottom: 40%;display: flex;justify-content: center;}
+/*#content .carousel-caption .box-img{width: 250px;}
+#content .carousel-caption .box-img img{width: 100%;height: 100%;}*/
+
+/*THE MOST LUXURY AND CONVENIENCE CONDOMINIUM RIGHT IN THE MIDDLE OF PHNOM PENH*/
+#content .luxury{}
+#content .luxury .group-luxury{padding-top: 80px;width: 87.5%;}
+#content .luxury .group-title{text-align: center;}
+#content .luxury .group-title h2{font-size: 35px;margin: 0;padding: 0 29%;text-transform: uppercase;}
+#content .luxury .items{padding-top: 50px;text-align: center;}
+#content .luxury .items .text p{margin: 0;padding: 0 33%;}
+#content .luxury .items .button{padding-top: 50px;}
+#content .luxury .items .img{width: 100%;height: 730px;padding-top: 50px;}
+#content .luxury .items .img img{width: 100%;height: 100%;object-fit: cover;}
+
+/*TO BE THE FIRST IS TO LEAD*/
+#content .lead{}
+#content .lead .group-lead{padding-top: 80px;}
+#content .lead .group-title{text-align: center;}
+#content .lead .group-title h2{font-size: 35px;margin: 0;text-transform: uppercase;}
+#content .lead .items{padding-top: 50px;}
+#content .lead .items .img{position: relative;overflow: hidden;width: 100%;display: flex;justify-content: center;align-items: center;}
+#content .lead .items .img img{width: 100%;height: 100%;object-fit: cover;}
+#content .lead .items .img .button-youtube{position: absolute;width: 80px;}
+
+/*WHY CHOOSE LOCA RESIDENT CONDOMINIUM?*/
+#content .resident{padding-top: 80px;}
+#content .why-choose-us{position: relative;height: 900px;overflow: hidden;}
+#content .why-choose-us > img{position: absolute;width: 100%;height: 100%;object-fit: cover;z-index: -1;}
+#content .why-choose-us h2{text-align: center;color: #fff;text-transform: uppercase;font-weight: normal;margin: 0;padding: 15% 25% 0 25%;font-size: 35px;position: relative;}
+#content .resident .items{display: flex;justify-content: center;padding-top: 80px;overflow: hidden;}
+#content .resident .items .img{width: 100px;height: 60px;}
+#content .resident .items .img img{width: 100%;/*height: 100%;*/}
+#content .resident .items .text{color: #fff;padding-left: 20px;}
+#content .resident .items .text h3{margin: 0;} 
+#content .resident .items .text p{padding-right: 30px;padding-top: 20px;margin: 0;}
+#content .resident .button{padding-top: 100px;text-align: center;position: relative;}
+
+
+/*sub-banner*/
+#content .sub-banner{}
+#content .sub-banner .carousel{position: relative;overflow: hidden;display: flex;justify-content: center;}
+#content .sub-banner .banner-img{width: 100%;height: 600px;position: relative;overflow: hidden;display: flex;justify-content: center;}
+#content .sub-banner .banner-img img{width: 100%;height: 100%;object-fit: cover;}
+#content .sub-banner .img{width: 100px;margin-top: 15px;z-index: 100;position: absolute;top: 0;display: flex;justify-content: center;align-items: center;transition: all .4s;}
+.shrink-img{position: fixed !important;top: -6px !important;width: 80px !important;}
+#content .sub-banner .img img{width: 100%;height: 100%;object-fit: cover;}
+#content .sub-banner .text{width: 100%;z-index: 1;position: absolute;display: flex;justify-content: center;align-items: center;flex-direction: column;
+    margin-top: 15%;color: #fff;}
+#content .sub-banner .text h1{margin: 0;padding: 0 41%;text-align: center;text-transform: uppercase;}
+#content .sub-banner .text p{margin: 0;padding-top: 20px;}
+
+/*pagination*/
+.pagination {width: 100%;margin-top: 50px;margin-bottom: 0;text-align: center;}
+.pagination .page ul li {list-style: none;display: inline;font-size: 14px;color: #fff;}
+.pagination .page li a {margin-right: 10px;padding: 10px 15px;font-size: 14px;color: #333;}
+.pagination .page li a:hover{text-decoration: none;}
+.pagination .page li a img{width: 20px;}
+.pagination .page li a.prev-disabled, .pagination .page li a.next-disabled {pointer-events: none;cursor: default;}
+.pagination .page li .current{color: #fff;background-color: #CCBB8A;}
+
+
+
+
+
+
+/****************************************************************************
+////////////////////////////////////////////////////////////////////////////////
+* 	Blog footer Home Page
+////////////////////////////////////////////////////////////////////////////////
+*****************************************************************************/
+/*custom for slick-slider*/
+.slick-arrow{position: absolute;font-size: 50px;color: gray;z-index: 1;margin: 0 50px;cursor: pointer;opacity: 0;-webkit-transition: all 0.3s ease-in; transition: all 0.3s ease-in; width: 40px;top: 45%;}
+.slick-arrow:hover{color: white;}
+.banner-main-slide:hover > .slick-arrow{opacity: 1;}
+.arrow-right{right: 0;}
+.arrow-left{left: 0;}
+.slick-dots{bottom: 10%;}
+.dots-cus{position: relative;display: -webkit-flex; /* Safari */display: flex;bottom: 5%;width: 100%;justify-content:center;-webkit-justify-content: center;display: -webkit-box;-webkit-box-pack: center; /* justify-content */-webkit-box-align: center; /* align-items */padding-left: 0;margin: 0;}
+.dots-cus li {display: inline-block;list-style: none;margin-right: 10px;}
+.dots-cus li:last-child{margin-right: 0;}
+.dots-cus li button{width: 8px;height: 8px;background-color: #D1C090;border: none;border-radius: 50%;padding: 0;}
+.dots-cus li.slick-active button{background-color: #D1C090;width: 9px;height: 9px;}
+
+/*partner*/
+#footer .partner{background-color: #F5F6F6;padding: 20px 0 40px 0;}
+#footer .partner .group-partner{padding-top: 40px;}
+#footer .partner h2{text-align: center;margin-bottom: 30px;text-transform: uppercase;}
+#footer .box-sub-partner{margin-bottom: 30px;}
+#footer .box-sub-partner .sub-partner{height: 100px;width:100%;background-color: white;border: 1px solid #e0e0e0;}
+#footer .box-sub-partner .sub-partner img{height: auto;width: auto;height: 100%;width: 100%;}
+#footer .partner .description{margin-bottom: 30px;}
+
+/*map*/
+#footer .map{height: 500px;}
+
+/*DISPLAY SUITE OPEN*/
+#footer .display{}
+#footer .display .group-display{padding-top: 80px;text-align: center;}
+#footer .display .group-display h3{margin: 0;text-align: center;font-weight: bold;font-size: 16px;}
+#footer .display .items{}
+#footer .display .items p{padding-top: 30px;margin: 0;}
+#footer .display .items ul{list-style: none;padding-top: 30px;padding-left: 0;margin: 0;}
+#footer .display .items ul li{padding-top: 5px;}
+#footer .display .items ul li a{text-decoration: none;color: #333;}
+
+#footer .footer{}
+#footer .footer .group-footer{padding-bottom: 20px;padding-top: 50px;}
+#footer .footer .follow-loca{text-align: left;}
+#footer .footer .follow-loca h3{font-size: 16px;font-weight: bold;margin: 0;}
+#footer .footer .follow-loca .social{padding-top: 25px;padding-left: 0;margin: 0;list-style: none;}
+#footer .footer .follow-loca .social li{line-height: 20px;}
+#footer .footer .follow-loca .social li a{text-decoration: none;color: #333;}
+#footer .footer .site-map{text-align: right;}
+#footer .footer .site-map h3{font-size: 16px;font-weight: bold;margin: 0;}
+#footer .footer .site-map .dev-by{padding-top: 25px;}
+#footer .footer .site-map .dev-by p{margin: 0;}
+#footer .footer .site-map .dev-by a{text-decoration: none;color: #333;}
