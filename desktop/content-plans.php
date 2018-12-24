@@ -28,8 +28,8 @@
 	#content .loca-resident .group-loca-resident h2{text-align: center;margin: 0;padding: 0 32%;font-size: 35px;text-transform: uppercase;}
 	#content .loca-resident .items{overflow: hidden;padding-top: 50px;}
 	#content .loca-resident .items .img{width: 100%;height: 100%;display: flex;overflow: hidden;justify-content: center;/*border: 1px solid;*/}
-	#content .loca-resident .items .img img{width: 100%;height: 340px;object-fit: cover;}
-	#content .loca-resident .items .text{margin-top: -40px;display: flex;flex-wrap: wrap;justify-content: center;}
+	#content .loca-resident .items .img img{width: 100%;height: 340px;object-fit: cover;z-index:-10;}
+	#content .loca-resident .items .text{margin-top: -40px;display: flex;flex-wrap: wrap;justify-content: center;z-index:10;}
 	#content .loca-resident .items .text button{width: 350px;height: 40px;border: none;background-color: rgba(0,0,0,0.3);color: #fff;}
 	#content .loca-resident .items .text h3{margin: 0;text-align: center;padding: 0 26%;padding-top: 20px;font-size: 16px;}
 	#content .loca-resident .items .text .price{padding-top: 15px;}
@@ -59,7 +59,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="col-sm-6">
 						<div class="items zoom-out">
 							<div class="img">
@@ -74,7 +73,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="col-sm-6">
 						<div class="items zoom-out">
 							<div class="img">
@@ -89,7 +87,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="col-sm-6">
 						<div class="items zoom-out">
 							<div class="img">
