@@ -1,0 +1,11 @@
+#content .gallery{}
+#content .gallery .group-gallery{padding-top: 80px;padding-bottom: 80px;}
+#content .gallery .group-gallery h2{margin: 0;padding: 0 30%;text-align: center;font-size: 35px;padding-bottom: 20px;}
+#content .gallery .row{display: flex;justify-content: center;flex-wrap: wrap;}
+#content .gallery .items{padding-top: 30px;}
+#content .gallery .items .img{width: 100%;height: 100%;overflow: hidden;}
+#content .gallery .items .img img{width: 100%;height: 240px;object-fit: cover;}
+
+#content .gallery .zoom-out{overflow: hidden;}
+#content .gallery .zoom-out img{transition: 0.7s;}
+#content .gallery .zoom-out:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}

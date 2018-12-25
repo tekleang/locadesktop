@@ -157,5 +157,8 @@
         //     imgHeight: 768
         // });
     </script>
+    <!-- JS -->
+	<!-- <script src="//code.jquery.com/jquery-3.2.1.min.js"></script> -->
+	<script src="<?php echo $BATH_URL;?>assets/scripts/jquery.fancybox.min.js"></script>
 </body>
 </html>

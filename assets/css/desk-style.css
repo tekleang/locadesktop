@@ -165,7 +165,7 @@ body{
 .pagination {width: 100%;margin-top: 50px;margin-bottom: 0;text-align: center;}
 .pagination .page ul li {list-style: none;display: inline;font-size: 14px;color: #fff;}
 .pagination .page li a {margin-right: 10px;padding: 10px 15px;font-size: 14px;color: #333;}
-.pagination .page li a:hover{text-decoration: none;}
+.pagination .page li a:hover{text-decoration: none;background-color: #CCBB8A;color: #fff;}
 .pagination .page li a img{width: 20px;}
 .pagination .page li a.prev-disabled, .pagination .page li a.next-disabled {pointer-events: none;cursor: default;}
 .pagination .page li .current{color: #fff;background-color: #CCBB8A;}

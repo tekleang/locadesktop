@@ -1,0 +1,17 @@
+#content .targert{}
+#content .targert .group-targert{padding-top: 40px;padding-bottom: 80px;}
+#content .targert .group-title h3{color: #EC1F27;}
+#content .targert .group-title h2{padding-top: 25px;padding-left: 25%;padding-right: 25%;}
+#content .targert .group-title .box-underline .underline{margin-bottom: 50px;}
+#content .targert ul{padding: 0;margin: 0;list-style: none;padding-top: 30px;}
+#content .targert ul li{float: left;width: 100%;margin-bottom: 30px;}
+#content .targert ul li span:first-child{display: block;height: 28px;width: 28px;border-radius: 50%;overflow: hidden;float: left;}
+#content .targert ul li a{color: #333;}
+#content .targert ul li span:first-child img{height: 100%;width: 100%;}
+#content .targert ul li span:last-child{display: block;width: 90%;padding-left: 17px;float: left;line-height: 25px;}
+#content .targert .box-img-text{padding-top: 30px;}
+/*#content .targert .box-form{padding-top: 30px;}*/
+#content .targert .box-form .form-inline{padding-top: 30px;}
+#content .targert .box-form .form-inline .box-input input{width: 370px;height: 40px;box-shadow: none;outline: none;border: 1px solid #e0e0e0;}
+#content .targert .box-form .form-inline textarea{width: 755px;height: 276px;box-shadow: none;outline: none;border: 1px solid #e0e0e0;}
+#content .targert .button{float: right;padding-top: 30px;}

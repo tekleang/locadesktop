@@ -23,21 +23,7 @@
 			    </div>
 		    </div>
 		</div>
-<style type="text/css">
-	#content .team{}
-	#content .team .group-team{padding-top: 80px;padding-bottom: 80px;}
-	#content .team .group-team h2{padding: 0 30%;margin: 0;font-size: 35px;text-align: center;}
-	#content .team .row{display: flex;justify-content: center;flex-wrap: wrap;}
-	#content .team .items{padding-top: 40px;}
-	#content .team .items .img{width: 100%;height: 240px;overflow: hidden;}
-	#content .team .items .img img{width: 100%;height: 100%;object-fit: cover;}
-	#content .team .items .text{padding-top: 15px;}
-	#content .team .items .text h3{margin: 0;font-size: 14px;text-align: center;line-height: 20px;}
-
-#content .team .zoom-out{overflow: hidden;}
-#content .team .zoom-out img{transition: 0.7s;}
-#content .team .zoom-out:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}
-</style>		
+		
 		<!-- LOCA RESIDENT’S GALLERIES -->
 		<div class="container-fluid team">
 			<div class="container group-team">

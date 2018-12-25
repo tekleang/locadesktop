@@ -11,6 +11,18 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $BATH_URL;?>assets/css/animate.min.css">
 	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/desk-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/amenities-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/contact-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/design-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/developer-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/events-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/galleries-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/location-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/plans-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/register-style.css">
+	<link rel="stylesheet" href="<?php echo $BATH_URL;?>assets/css/team-style.css">
+
+
 	<link href="<?php echo $BATH_URL;?>assets/css/demo.css" rel="stylesheet">
 	<script src="<?php echo $BATH_URL;?>assets/scripts/jquery.js"></script>
 	<script src="<?php echo $BATH_URL;?>assets/scripts/main.js"></script>
@@ -35,6 +47,8 @@
     <script src="<?php echo $BATH_URL;?>assets/dist/jarallax-video.js"></script>
     <script src="<?php echo $BATH_URL;?>assets/dist/jarallax-element.js"></script>
     <script src="<?php echo $BATH_URL;?>assets/js/scroll-count-number2.js"></script>
+
+    <link rel="stylesheet"  href="<?php echo $BATH_URL;?>assets/css/jquery.fancybox.min.css">
 </head>
 <body>
 	<div id="wrapper">

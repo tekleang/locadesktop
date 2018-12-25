@@ -20,19 +20,7 @@
 			    </div>
 		    </div>
 		</div>
-<style type="text/css">
-	#content .update{}
-	#content .update{} .group-update{padding-top: 80px;padding-bottom: 50px;}
-	#content .update .group-update h2{margin: 0;text-align: center;padding: 0 22%;}
-	#content .update .items{padding-top: 50px;overflow: hidden;}
-	#content .update .items .img{width: 100%;height: 340px;overflow: hidden;}
-	#content .update .items .img img{width: 100%;height: 100%;object-fit: cover;}
-	#content .update .items .text h3{font-size: 18px;padding: 0 20%;margin: 0;padding-top: 20px;}
 
-#content .update .zoom-out{overflow: hidden;}
-#content .update .zoom-out img{transition: 0.7s;}
-#content .update .zoom-out:hover img{-moz-transform: scale(1);-webkit-transform: scale(1.1);transform: scale(1.1);}
-</style>
 		<!-- WE UPDATE THE LOCA RESIDENT’S ACTIVITY AND EVENTS HAPPENED -->
 		<div class="container-fluid update">
 			<div class="container group-update">

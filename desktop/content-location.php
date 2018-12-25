@@ -24,22 +24,7 @@
 			    </div>
 		    </div>
 		</div>
-<style type="text/css">
-/*LIFE IS EASY WHEN EVERYTHING IS JUST AROUND THE CORNER*/
-#content .corner{}
-#content .corner .group-corner{padding-top: 80px;width: 87.5%;}
-#content .corner .group-title{text-align: center;}
-#content .corner .group-title h2{font-size: 35px;margin: 0;padding: 0 25%;}
-#content .corner .items{padding-top: 50px;text-align: center;}
-#content .corner .items .text p{margin: 0;padding: 0 31%;}
-#content .corner .items .button{padding-top: 50px;}
-#content .corner .items .click-slide{padding-top: 50px;}
-#content .corner .items .click-slide .sub-partner{width: 100%;height: 730px;}
-#content .corner .items .slick-slide img{width: 100%;height: 100%;object-fit: cover;}
-#content .corner .items .dots-cus{position: absolute;bottom: 5%;}
-#content .corner .items .click-slide .sub-partner .button{position: absolute;width: 100%;z-index: 10;bottom: 15%;}
-#content .corner .items .click-slide .button button{background-color: rgba(0,0,0,0.3);border: none;width: 350px;}
-</style>
+
 		<!-- LIFE IS EASY WHEN EVERYTHING IS JUST AROUND THE CORNER -->
 		<div class="container-fluid corner">
 				<div class="container group-corner">
@@ -98,17 +83,7 @@
 					</div>
 				</div>
 		</div>
-<style type="text/css">
-/*A CONNECTED LOCATION ON MAP*/
-#content .location{}
-#content .location .group-location{padding-top: 80px;width: 87.5%;padding-bottom: 80px;}
-#content .location .group-location h2{font-size: 35px;margin: 0;padding: 0 32%;text-align: center;}
-#content .location .items{padding-top: 50px;text-align: center;}
-#content .location .items .text p{margin: 0;padding: 0 33%;}
-#content .location .items .button{padding-top: 50px;}
-#content .location .items .img{width: 100%;height: 730px;padding-top: 50px;}
-#content .location .items .img img{width: 100%;height: 100%;object-fit: cover;}
-</style>
+
 		<!-- A CONNECTED LOCATION ON MAP -->
 		<div class="container-fluid location">
 				<div class="container group-location">

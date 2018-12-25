@@ -24,20 +24,7 @@
 			    </div>
 		    </div>
 		</div>
-<style type="text/css">
-#content .developer{}
-#content .developer .group-developer{padding-top: 80px;width: 87.5%;padding-bottom: 80px;}
-#content .developer .group-developer h2{margin: 0;font-size: 35px;text-align: center;}
-#content .developer .items{padding-top: 20px;text-align: center;}
-#content .developer .items .text p{margin: 0;padding: 0 32%;padding-top: 30px;}
-#content .developer .items .button{padding-top: 50px;}
-#content .developer .items .click-slide{padding-top: 50px;}
-#content .developer .items .click-slide .sub-partner{width: 100%;height: 730px;}
-#content .developer .items .slick-slide img{width: 100%;height: 100%;object-fit: cover;}
-#content .developer .items .dots-cus{position: absolute;bottom: 5%;}
-#content .developer .items .click-slide .sub-partner .button{position: absolute;width: 100%;z-index: 10;bottom: 15%;}
-#content .developer .items .click-slide .button button{background-color: rgba(0,0,0,0.3);border: none;width: 350px;}
-</style>
+
 		<!-- VEAHA DEVELOPER -->
 		<div class="container-fluid developer">
 			<div class="container group-developer">
